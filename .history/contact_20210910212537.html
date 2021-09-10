@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- thư viện slick slider  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-1">
+        <div class="container">
+          <div class="header-1-s">
+            <div class="header-1-item-1">
+              <p class="header-1-item-text-1">
+                <i class="fas fa-map-marker-alt icon"></i> 319 - C16 Lý Thường
+                Kiệt, P.15, Q.11, Tp.HCM
+              </p>
+              <p class="header-1-item-text-1">
+                <i class="fas fa-phone-alt icon"></i>
+                <a href="" class="header-1-item-text-link">076 922 0162</a>
+              </p>
+            </div>
+            <div class="header-1-item-1">
+              <p class="header-1-item-text-2">
+                <a href="" class="header-1-item-text-link"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </p>
+              <p class="header-1-item-text-2">
+                <a href="" class="header-1-item-text-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </p>
+              <p class="header-1-item-text-2">
+                <a href="" class="header-1-item-text-link"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <div class="container">
+          <div class="header-2-s">
+            <div class="header-2-logo">
+              <img src="./logo/logo-mona-2.png" alt="" />
+            </div>
+
+            <div class="header-2-search">
+              <input type="text" placeholder="Tìm kiếm" />
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="header-2-right">
+              <p class="header-2-right-text">
+                <a href=""><i class="fas fa-heart"></i></a>
+              </p>
+              <p class="header-2-right-cart">
+                <span class="header-2-right-number">0</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- lam phan icon de dropmenu khi responsive -->
+      <input type="checkbox" id="toggle-menu" />
+      <label for="toggle-menu" class="header-icon-responsive">
+        <i class="fas fa-bars" id="header-icon1"></i>
+        <i class="fas fa-times" id="header-icon2"></i>
+      </label>
+      <div class="header-3">
+        <div class="header-3-s">
+          <ul class="header-3-list">
+            <li class="header-3-list-item active">
+              <a href="./index.html" class="header-3-list-item-link"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="header-3-list-item">
+              <a href="./introduce.html" class="header-3-list-item-link"
+                >Giới thiệu</a
+              >
+            </li>
+            <li class="header-3-list-item">
+              <a href="./product-boy.html" class="header-3-list-item-link"
+                >đồng hồ nam</a
+              >
+            </li>
+            <li class="header-3-list-item">
+              <a href="./product-girl.html" class="header-3-list-item-link"
+                >đồng hồ nữ</a
+              >
+            </li>
+            <li class="header-3-list-item">
+              <a href="./news.html" class="header-3-list-item-link">blogs</a>
+            </li>
+            <li class="header-3-list-item">
+              <a href="./contact.html" class="header-3-list-item-link"
+                >liên hệ</a
+              >
+            </li>
+            <li class="header-3-list-item">
+              <a href="" class="header-3-list-item-link">Đăng nhập</a>
+            </li>
+            <li class="header-3-list-item header-3-list-item-mobile">
+              <div class="header-3-list-item-search">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="header-3-list-item-search-input"
+                  placeholder="Tìm kiếm"
+                />
+                <button class="header-3-list-item-search-btn" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- hết phần header  -->
+
+    <div class="contact">
+      <div class="container">
+        <div class="contact-maps">
+          <div class="contact__maps-epu">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.657060482336!2d105.78272751429809!3d21.04640359255304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abb158a2305d%3A0x5c357d21c785ea3d!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyDEkGnhu4duIEzhu7Fj!5e0!3m2!1svi!2s!4v1631268219230!5m2!1svi!2s"
+              width="1200"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+        <div class="contact-list">
+          <div class="contact-item">
+            <img src="./contact/contact1.PNG" alt="" class="contact-image" />
+            <div class="contact-info">
+              <h3 class="info-name">Địa chỉ</h3>
+              <p class="info-desc">
+                319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM
+              </p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <img src="./contact/contact2.PNG" alt="" class="contact-image" />
+            <div class="contact-info">
+              <h3 class="info-name">Điện thoại:</h3>
+              <p class="info-desc">Bấm 109 – Phòng kinh doanh</p>
+              <p class="info-desc">Bấm 103 – Phòng kỹ thuật</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <img src="./contact/contact3.PNG" alt="" class="contact-image" />
+            <div class="contact-info">
+              <h3 class="info-name">Email</h3>
+              <p class="info-desc">huyhoang0508@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <form action="#">
+          <div class="form-group">
+            <input type="text" class="contact-form" placeholder="Họ và tên" />
+            <input type="text" class="contact-form" placeholder="Email" />
+          </div>
+          <div class="form-group">
+            <input type="text" class="contact-form" placeholder="Email" />
+            <input type="text" class="contact-form" placeholder="Địa chỉ" />
+          </div>
+          <div class="form-group">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn-contact">Gửi</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="email">
+      <div class="container">
+        <h3 class="sub-info">Đăng ký nhận thông tin</h3>
+        <div class="email-sub">
+          <input type="email" name="" id="" placeholder="Email..." />
+          <button type="submit" class="btn-email">
+            <span>Đăng ký</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- làm phần footer  -->
+    <footer>
+      <div class="container">
+        <div class="footer-s">
+          <div class="row2">
+            <div class="footer-item footer-item-1">
+              <h2 class="footer-item-tittle">THÔNG TIN LIÊN HỆ</h2>
+              <div class="footer-item-list">
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="footer-item-list-item-text">
+                    <p>
+                      <a href=""
+                        >319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="footer-item-list-item-text">
+                    <p><a href="">076 922 0162</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                  </div>
+                  <div class="footer-item-list-item-text">
+                    <p><a href="">demonhunterg@gmail.com mon@mona.media</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-icon">
+                    <i class="fab fa-skype"></i>
+                  </div>
+                  <div class="footer-item-list-item-text">
+                    <p><a href="">demonhunterp</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-item-icon">
+                <div class="footer-item-icon-item footer-item-icon-item-face">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="footer-item-icon-item footer-item-icon-item-insta">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div
+                  class="footer-item-icon-item footer-item-icon-item-twitter"
+                >
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="footer-item-icon-item footer-item-icon-item-wifi">
+                  <a href=""><i class="fas fa-wifi"></i></a>
+                </div>
+                <div class="footer-item-icon-item footer-item-icon-item-linked">
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-item footer-item-1">
+              <h2 class="footer-item-tittle">LIÊN KẾT</h2>
+              <div class="footer-item-list">
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./introduce.html">Giới thiệu</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./product-boy.html">Đồng hồ nam</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./product-girl.html">Đồng hồ nữ</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./news.html">Blogs</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./contact.html">Liên hệ</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-item footer-item-1">
+              <h2 class="footer-item-tittle">HỖ TRỢ</h2>
+              <div class="footer-item-list">
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./introduce.html">Hướng dẫn mua hàng</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./introduce.html">Hướng dẫn thanh toán</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./introduce.html">Chính sách bảo hành</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./introduce.html">Chính sách đổi trả</a></p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p><a href="./contact.html">Tư vấn khách hàng</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-item footer-item-4">
+              <h2 class="footer-item-tittle">TẢI ỨNG DỤNG TRÊN</h2>
+              <div class="footer-item-list">
+                <div class="footer-item-list-item">
+                  <div class="footer-item-list-item-text">
+                    <p>
+                      <a href=""
+                        >Ứng dụng Mona Watch hiện có sẵn trên Google Play & App
+                        Store. Tải nó ngay.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="footer-item-list-item">
+                  <img
+                    class="footer-item-list-item-img"
+                    src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-googleplay.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="footer-item-list-item">
+                  <img
+                    class="footer-item-list-item-img"
+                    src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-appstore.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="footer-banquyen">Lương Ngọc Vinh - Nguyễn Huy Hoàng</h3>
+    </footer>
+
+    <!-- thư viện js của jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- thư viện js của AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 500,
+      });
+    </script>
+    <!-- thư viện js của slick slider -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".single-item").slick({
+          autoplay: true,
+          autoplaySpeed: 2000,
+          prevArrow: ".main-banner-arrow-left",
+          nextArrow: ".main-banner-arrow-right",
+        });
+
+        $(".responsive").slick({
+          dots: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          prevArrow: ".main-3-tittle-arrow-left",
+          nextArrow: ".main-3-tittle-arrow-right",
+          autoplay: true,
+          autoplaySpeed: 1500,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 680,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
