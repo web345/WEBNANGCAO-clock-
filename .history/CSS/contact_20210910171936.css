@@ -1,0 +1,23 @@
+.contact {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.contact-list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+h3.info-name {
+  margin-bottom: 10px;
+}
